@@ -1,16 +1,17 @@
-# Codex
+# Desktop Text Editor
 
 This is a sample text editor built with PyQt5 framework and QScintilla.
 Latest screenshot with windows:
 
-![Image](https://raw.githubusercontent.com/sbenchik/QsciWriter/master/screen.png)
+![Image](https://raw.githubusercontent.com/BrianMuigai/Desktop-Text-Editor/main/Capture.PNG)
 
 Core features are:
 * Open new file
 * Open existing file for editing
 * Save file
 * Save As functionality
-`` NB: The text editor should be able to open the following file types: ".txt", ".py",".php"``
+.
+ `` NB: The text editor should be able to open the following file types: ".txt", ".py",".php"``
 
 Other features are:
 * Syntax highlighting
@@ -28,7 +29,8 @@ Features in development are:
 
 ## Running the project(App)
 
-``pip install -r requirements.txtpython3 main.py ``
+``pip install -r requirements.txt``
+``python3 main.py ``
 
 Currently this code was developed and tested on windows 10 x64.
 

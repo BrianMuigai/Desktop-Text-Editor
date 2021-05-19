@@ -11,13 +11,12 @@ Core features are:
 * Save file
 * Save As functionality
 .
- `` NB: The text editor should be able to open the following file types: ".txt", ".py",".php"``
+ `` NB: The text editor is able to open the following file types: ".txt", ".py",".php"``
 
 Other features are:
 * Syntax highlighting
 * Autocompletion
 * Tabs
-* Embedded terminal
 * Find and Replace
 * File Tree Sidebar
 

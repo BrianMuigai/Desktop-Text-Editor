@@ -51,5 +51,8 @@ class Tree(QWidget):
             if str(config.m.file) in config.docList:
                 return
             config.docList.append(str(config.m.file))
-            config.m.open()
+            try:
+                config.m.open()
+            except:
+                config.docList.remove(str(config.m.file))
         # print(config.docList)
